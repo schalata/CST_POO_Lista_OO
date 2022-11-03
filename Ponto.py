@@ -13,7 +13,7 @@ class Ponto:
     self._x, self._y = 0, 0
 
   def mover(self, x, y):
-    self._x, self._y = x, y
+    self._x, self._y = x, y    
 
   def get_x(self):
     return self._x

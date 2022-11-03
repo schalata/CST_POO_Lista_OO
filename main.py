@@ -1,30 +1,25 @@
-from BombaAgua import BombaAgua
+#from BombaAgua import BombaAgua
 #from Calculadora import Calculadora
 #from TV import TV
 #from Ponto import Ponto
-#from Quadrado import Quadrado
+from Quadrado import Quadrado
 
 if __name__ == '__main__':
-  # Ex. 01
-  # q1 = Quadrado()
-  # print(q1)
 
-  # q1.set_lado(4)
-  # print(q1)
+  ########## Ex. 01 e 02 ##########
+  
+  q1 = Quadrado(7)
+  q2 = Quadrado(4)
 
-  # q2 = Quadrado(4)
-  # print(q2)
+  print(q1)
 
-  # print(q1.compara_area(q2))
+  q2 = Quadrado(4)
+  print(q2)
 
-  # Ex. 02
-  # p1 = Ponto()
-  # print(p1)
-  # p2 = Ponto(3, 4)
-  # print(p2)
-  # print(p1.forneca_distancia(p2))
+  print(q1.compara_area(q2))
+  
+  ########## Ex. 03 ##########
 
-  # Ex. 03
   # tv = TV()
   # print(tv)
   # tv.alterar_volume(10)
@@ -34,7 +29,26 @@ if __name__ == '__main__':
   # tv.diminuir_canal()
   # print(tv)
 
-  # Ex. 04
+  ########## Ex. 04 e 05 ##########
+
+  # p1 = Ponto()
+  # print(p1)
+  # p2 = Ponto(3, 4)
+  # print(p2)
+  # print(p1.forneca_distancia(p2))
+
+  ########## Ex. 06 ##########
+  
+  # b = BombaAgua();
+  # print(b)
+  # tempo = 5
+  # print(f"Bomba d\'água ligada por {tempo} s.")
+  # b.ligar(tempo)  
+  # b.desligar()
+  # print("Bomba desligada!")
+
+  ########## Ex. 07 ##########
+  
   # c = Calculadora();
   
   # opcao=1
@@ -65,11 +79,4 @@ if __name__ == '__main__':
   #   elif(opcao==5):
   #     print(f'Resultado = {c.dividir()}')
 
-  # Ex. 04
-  b = BombaAgua();
-  print(b)
-  # tempo = 5
-  # print(f"Bomba d\'água ligada por {tempo} s.")
-  # b.ligar(tempo)  
-  # b.desligar()
-  # print("Bomba desligada!")
+  

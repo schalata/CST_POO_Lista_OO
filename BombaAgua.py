@@ -2,7 +2,7 @@ from time import sleep
 
 class BombaAgua:
   
-  def __init__(self):
+  def __init__(self): 
     self._status = False
 
   def __str__(self):
